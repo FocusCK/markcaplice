@@ -41,3 +41,13 @@ nav ul li a {
 nav ul li a:hover {
     color: #9BB8CD;
 }
+section {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    padding-left: 6em;
+    padding-right: 6em;
+    font-size: larger;
+}
+#testimonials {
+    background-color: whitesmoke;
+}
