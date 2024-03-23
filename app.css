@@ -19,14 +19,37 @@ nav {
     padding-left: 6em;
     padding-right: 6em;
     /* border: 5px solid blue; */
-    align-items: flex-end;
+    align-items: center;
     position: fixed;
     width: 100%;
     background-color:  rgba(177,195,129, 0.8);
 }
+#nav_smaller {
+    display: flex;
+
+}
+
+@media (max-width: 1000px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    ul {
+        display: flex;
+    }
+    h2, ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
 .logo {
     color: #FFF7D4;
     font-size: 2.5em;
+
 }
 nav ul li {
     list-style-type: none;
@@ -57,16 +80,29 @@ section {
     display: flex;
     justify-content: space-between;
     background-color: #9BB8CD;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
 }
 #profile {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: row; */
     justify-content: space-evenly;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     align-items: center;
-    border: 5px solid blue;
+    object-fit: fill;
+
+    /* border: 5px solid blue; */
 }
-.test {
-    border: 5px solid blue;
-/* Make the picture stay on the left of the text until the screen size goes below and add a media querie for the nav bar to change to hamburgeer icon at 1200px */
+.text {
+    /* border: 5px solid blue; */
+    flex: 1;
+/* Make the picture stay on the left of the text and fills the side of the page until the screen size goes below 900px. Add a media querie for the nav bar to change to hamburgeer icon at 1200px */
+}
+.image {
+    flex: 2;
+        border: 5px solid blue;
+    flex-grow: 1;
+    width: 50%;
 }
