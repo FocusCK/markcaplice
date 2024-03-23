@@ -48,13 +48,25 @@ section {
     padding-right: 6em;
     font-size: larger;
 }
-#testimonials {
+/* #testimonials {
     background-color: #9BB8CD;
-}
+} */
 #youtubelink {
     margin-top: 6em;
     margin-bottom: 6em;
     display: flex;
     justify-content: space-between;
     background-color: #9BB8CD;
+}
+#profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    border: 5px solid blue;
+}
+.test {
+    border: 5px solid blue;
+/* Make the picture stay on the left of the text until the screen size goes below and add a media querie for the nav bar to change to hamburgeer icon at 1200px */
 }
