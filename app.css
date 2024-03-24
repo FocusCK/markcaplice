@@ -4,13 +4,15 @@
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
 }
+
 .hero {
     height: 90vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(stage.jpg.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(stage.jpg.webp);
     background-size: cover;
     background-position: center;
 }
+
 nav {
     display: flex;
     align-items: center;
@@ -22,48 +24,47 @@ nav {
     align-items: center;
     position: fixed;
     width: 100%;
-    background-color:  rgba(177,195,129, 0.8);
+    /* background-color:  rgba(177,195,129, 0.8); */
 }
+
 #nav_smaller {
     display: flex;
 
 }
 
-@media (max-width: 1000px) {
-    nav {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        flex-wrap: nowrap;
-    }
-    ul {
-        display: flex;
-    }
-    h2, ul {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-}
-
 .logo {
-    color: #FFF7D4;
+    color: aqua;
     font-size: 2.5em;
-
+    text-shadow: 0 0 20px #9BB8CD;
 }
+
+.logo:hover {
+    color: #9BB8CD;
+    transition: 0.5s;
+}
+
 nav ul li {
     list-style-type: none;
     display: inline-block;
     padding: 2em 2em;
 }
+
 nav ul li a {
     color: #EEC759;
     text-decoration: none;
     font-weight: bold;
+    background-color: #9BB8CD;
+    padding: 8px;
+    border-radius: 8px;
 }
+
 nav ul li a:hover {
-    color: #9BB8CD;
+    color: #2782c8;
+    box-shadow: 4px 4px 8px black;
+    font-size: 1.01em;
+    transition: 0.5s;
 }
+
 section {
     padding-top: 6em;
     padding-bottom: 6em;
@@ -71,6 +72,7 @@ section {
     padding-right: 6em;
     font-size: larger;
 }
+
 /* #testimonials {
     background-color: #9BB8CD;
 } */
@@ -85,6 +87,7 @@ section {
     justify-content: space-around;
     align-content: space-around;
 }
+
 #profile {
     display: flex;
     /* flex-direction: row; */
@@ -95,14 +98,36 @@ section {
 
     /* border: 5px solid blue; */
 }
+
 .text {
     /* border: 5px solid blue; */
     flex: 1;
-/* Make the picture stay on the left of the text and fills the side of the page until the screen size goes below 900px. Add a media querie for the nav bar to change to hamburgeer icon at 1200px */
+    /* Make the picture stay on the left of the text and fills the side of the page until the screen size goes below 900px. Add a media querie for the nav bar to change to hamburgeer icon at 1200px */
 }
+
 .image {
     flex: 2;
-        border: 5px solid blue;
+    border: 5px solid blue;
     flex-grow: 1;
     width: 50%;
+}
+
+@media (max-width: 1000px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    h2,
+    ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 }
