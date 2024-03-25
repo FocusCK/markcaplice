@@ -33,9 +33,10 @@ nav {
 }
 
 .logo {
-    color: aqua;
-    font-size: 2.5em;
+    color: #EEC759;
+    font-size: 3vw;
     text-shadow: 0 0 20px #9BB8CD;
+    text-decoration: none;
 }
 
 .logo:hover {
@@ -47,6 +48,7 @@ nav ul li {
     list-style-type: none;
     display: inline-block;
     padding: 2em 2em;
+    width: 10vw;
 }
 
 nav ul li a {
