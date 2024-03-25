@@ -83,7 +83,7 @@ section {
     margin-bottom: 6em;
     display: flex;
     justify-content: space-between;
-    background-color: #9BB8CD;
+    background-color: #9bb8cd3f;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -92,29 +92,42 @@ section {
 
 #profile {
     display: flex;
-    /* flex-direction: row; */
-    justify-content: space-evenly;
+    flex-direction: row;
+    /* justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
-    object-fit: fill;
+    object-fit: fill;  */
 
     /* border: 5px solid blue; */
 }
 
 .text {
     /* border: 5px solid blue; */
-    flex: 1;
+    /* flex: 1; */
     /* Make the picture stay on the left of the text and fills the side of the page until the screen size goes below 900px. Add a media querie for the nav bar to change to hamburgeer icon at 1200px */
+    float: right;
+    padding: 3em;
+    display: inline;
+    width: 30%;
 }
 
 .image {
-    flex: 2;
+    /* flex: 2;
     border: 5px solid blue;
     flex-grow: 1;
-    width: 50%;
+    width: 50%; */
+    float: left;
+    padding: 3em;
+    display: inline;
+    width: 30%;
 }
 
-@media (max-width: 1000px) {
+.intro {
+    display: flex;
+    width: 100%;
+}
+
+/* @media (max-width: 1000px) {
     nav {
         display: flex;
         flex-direction: row;
@@ -132,4 +145,4 @@ section {
         flex-direction: row;
         align-items: center;
     }
-}
+} */
