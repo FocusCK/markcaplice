@@ -6,7 +6,7 @@
 }
 
 .hero {
-    height: 90vh;
+    height: 80vh;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(stage.jpg.webp);
     background-size: cover;
@@ -106,25 +106,51 @@ section {
     /* flex: 1; */
     /* Make the picture stay on the left of the text and fills the side of the page until the screen size goes below 900px. Add a media querie for the nav bar to change to hamburgeer icon at 1200px */
     float: right;
-    padding: 3em;
+    padding: 5px;
     display: inline;
-    width: 30%;
+    width: 45%;
 }
 
-.image {
+#testimonials {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.home-image {
     /* flex: 2;
-    border: 5px solid blue;
     flex-grow: 1;
     width: 50%; */
     float: left;
     padding: 3em;
     display: inline;
-    width: 30%;
+    width: 50%;
+    width: min-content;
+    border: 5px solid blue;
 }
 
 .intro {
     display: flex;
     width: 100%;
+}
+
+.about_hero {
+    height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(stage.jpg.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#cool {
+    padding: 15px;
+    width: 45%;
+    float: left;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
 }
 
 /* @media (max-width: 1000px) {
