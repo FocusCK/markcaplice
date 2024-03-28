@@ -178,7 +178,7 @@ iframe {
 }
 
 .container {
-    max-width: 30vw;
+    max-width: 40vw;
     margin: 40px auto;
     border-radius: 8px;
     background-color: #9BB8CD;
@@ -189,8 +189,7 @@ iframe {
 }
 
 .form {
-    margin: 20px;
-    padding: 10px;
+    margin: 1em;
 }
 
 .form label {
