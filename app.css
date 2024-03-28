@@ -249,6 +249,36 @@ td button:hover {
     box-shadow: 5px 5px 10px;
 }
 
+footer {
+    background-color: #9BB8CD;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    padding-left: 6em;
+}
+
+.social-media a {
+    color: #2782c8;
+    background-color: antiquewhite;
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
+    margin: 2em;
+}
+
+.footer-nav a {
+    color: antiquewhite;
+}
+
+.social-media a, .footer-nav a {
+    text-decoration: none;
+    size: 2em;
+    padding: 2em;
+}
+
 /* @media (max-width: 1000px) {
     nav {
         display: flex;
