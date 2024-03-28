@@ -207,6 +207,11 @@ iframe {
     height: 5em;
 }
 
+table {
+    padding: 20px;
+}
+
+
 /* @media (max-width: 1000px) {
     nav {
         display: flex;
