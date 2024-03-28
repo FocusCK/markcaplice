@@ -5,7 +5,9 @@
     <link rel="stylesheet" href="app.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="descripttion" content="Mark Caplice music contact page">
+    <meta name="keywords" content="artist, singer, songwriter, Irish">
+    <title>Contact Page</title>
 </head>
 
 <body>
@@ -31,8 +33,27 @@
             </nav> -->
         </div>
     </header>
-    <form action="submit">
-        
+
+    <div class="container">
+        <h2>Contact us:</h2>
+        <form action="submit">
+            <div class="form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name here:" required>
+            </div>
+            <div class="form">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your Email here:" required>
+            </div>
+            <div class="form">
+                <label for="message">Message:</label>
+                <textarea type="text" id="message" name="message" placeholder="Enter your message here:"></textarea>
+            </div>
+            <div class="form">
+                <button type="submit">Submit</button>
+            </div>
+    </div>
     </form>
 </body>
+
 </html>
