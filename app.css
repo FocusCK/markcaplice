@@ -207,10 +207,45 @@ iframe {
     height: 5em;
 }
 
+caption {
+    font-size: 2em;
+    font-weight: bolder;
+    float: left;
+}
+
 table {
     padding: 20px;
 }
+th {
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 1.5em;
+    background-color: #9bb8cd3c;
+    border-radius: 20px 20px 5px 5px;
+    color: #2782c8;
+}
+td {
+    font-size: 1em;
+    padding: 2em;
+    border-bottom: 2px solid #2782c81a;
+}
 
+td button a {
+    text-decoration: none;
+    color: #2782c8;
+    /* padding: 10px; */
+    /* border-radius: 8px; */
+}
+
+td button {
+    background-color: #B1C381;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+td button:hover {
+    background-color: #b1c3819b;
+}
 
 /* @media (max-width: 1000px) {
     nav {
