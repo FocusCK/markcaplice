@@ -241,10 +241,12 @@ td button {
     background-color: #B1C381;
     border-radius: 5px;
     padding: 5px;
+    border: 2px;
 }
 
 td button:hover {
     background-color: #b1c3819b;
+    box-shadow: 5px 5px 10px;
 }
 
 /* @media (max-width: 1000px) {
