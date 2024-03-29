@@ -256,7 +256,6 @@ footer {
 .social-media {
     display: flex;
     justify-content: space-around;
-    width: 50%;
     padding-left: 6em;
 }
 
@@ -266,17 +265,32 @@ footer {
     height: 5em;
     width: 5em;
     border-radius: 50%;
-    margin: 2em;
+    margin-top: 2em;
 }
+
 
 .footer-nav a {
     color: antiquewhite;
+    display: inline-block;
+}
+
+.footer-nav li a {
+    list-style-type: none;
+    color: #2782c8;
+    display: inline-block;
+    border: black solid 3px;
+
 }
 
 .social-media a, .footer-nav a {
     text-decoration: none;
     size: 2em;
     padding: 2em;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
 }
 
 /* @media (max-width: 1000px) {
