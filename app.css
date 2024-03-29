@@ -169,8 +169,28 @@ iframe {
     width: 100%;
 }
 
+.form input {
+    height: 3em;
+}
+
 .form textarea {
-    height: 5em;
+    height: 6em;
+}
+
+.form button {
+    padding: 5px;
+    margin: 10px;
+    height: 3em;
+    width: 7em;
+    background-color: #B1C381;
+    color: #2782c8;
+    border-radius: 1em;
+}
+
+.form button:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 8px black;
+    background-color: #b1c3819b;
 }
 
 caption {
