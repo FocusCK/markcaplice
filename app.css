@@ -20,17 +20,10 @@ nav {
     padding-top: 4em;
     padding-left: 6em;
     padding-right: 6em;
-    /* border: 5px solid blue; */
     align-items: center;
     position: fixed;
     width: 100%;
-    /* background-color:  rgba(177,195,129, 0.8); */
 }
-
-/* #nav_smaller {
-    display: flex;
-
-} */
 
 .logo {
     color: #EEC759;
@@ -75,9 +68,6 @@ section {
     font-size: larger;
 }
 
-/* #testimonials {
-    background-color: #9BB8CD;
-} */
 #youtubelink {
     margin-top: 6em;
     margin-bottom: 6em;
@@ -96,13 +86,6 @@ iframe {
 
 #profile {
     display: flex;
-    /* flex-direction: column; */
-    /* justify-content: space-evenly; */
-    /* flex-wrap: nowrap; */
-    /* align-items: center; */
-    /* object-fit: fill;  */
-
-    /* border: 5px solid blue; */
 }
 
 .profile-box {
@@ -110,24 +93,15 @@ iframe {
     width: 50%;
     text-align: center;
     font-size: larger;
-    /* align-items: center; */
-    /* align-content: center; */
-    /* flex-wrap: nowrap; */
-    /* object-fit: contain; */
-    /* border: 5px solid blue; */
 }
 
 #mark-profile {
-    /* object-fit: contain; */
     width: 100%;
     height: auto;
     border-radius: 20px;
 }
 
 .text {
-    /* border: 5px solid blue; */
-    /* flex: 1; */
-    /* Make the picture stay on the left of the text and fills the side of the page until the screen size goes below 900px. Add a media querie for the nav bar to change to hamburgeer icon at 1200px */
     float: right;
     padding: 5px;
     display: inline;
@@ -154,23 +128,15 @@ iframe {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: 5px solid green; */
-
 }
 
 #about-image {
     width: 80%;
-    /* border: 5px solid blue; */
     border-radius: 20px;
-
 }
 
 .artist {
-    /* background-color: lightgrey; */
     letter-spacing: 1.5px;
-    
-    /* border: 5px solid red; */
-
 }
 
 .intro h2 {
@@ -256,7 +222,6 @@ footer {
 .social-media {
     display: flex;
     justify-content: space-around;
-    padding-left: 6em;
 }
 
 .social-media a {
@@ -292,7 +257,7 @@ footer {
     width: 70%;
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content: center;
     list-style-type: none;
 }
 
