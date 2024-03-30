@@ -57,7 +57,7 @@ nav ul li a {
 nav ul li a:hover {
     color: #2782c8;
     box-shadow: 4px 4px 8px black;
-    font-size: 1.01em;
+    /* font-size: 1.01em; */
     transition: 0.5s;
 }
 
@@ -166,7 +166,8 @@ iframe {
     font-weight: bold;
 }
 
-.form input, .form textarea {
+.form input,
+.form textarea {
     border-radius: 5px;
     width: 100%;
 }
@@ -216,6 +217,7 @@ th {
     color: #2782c8;
     width: auto;
 }
+
 td {
     font-size: 1em;
     padding: 2em;
@@ -272,7 +274,8 @@ footer {
     color: #2782c8;
 }
 
-.social-media a, .footer-nav a {
+.social-media a,
+.footer-nav a {
     text-decoration: none;
     size: 2em;
     padding: 2em;
@@ -287,30 +290,47 @@ footer {
 }
 
 @media (max-width: 1280px) {
-        #profile {
-            display: flex;
-            flex-direction: column;
-        }
+    #profile {
+        display: flex;
+        flex-direction: column;
+    }
 
-        .profile-box{
-            margin: auto;
-        }
+    .profile-box {
+        margin: auto;
+    }
 
-        .profile-box p {
-            margin-top: 1em;
-            line-height: 1.5em;
-        }
+    .profile-box p {
+        margin-top: 1em;
+        line-height: 1.5em;
+    }
 
-        #date-column {
-            padding: 0px;
-            width: 150px;
-        }
-        th {
-            font-size: small;
-            padding: 1em;
-        }
-        td {
-            font-size: smaller;
-            padding: 1em;
-        }
+    #date-column {
+        padding: 0px;
+        width: 150px;
+    }
+
+    th {
+        font-size: small;
+        padding: 1em;
+    }
+
+    td {
+        font-size: smaller;
+        padding: 1em;
+    }
+}
+
+@media (max-width 620px) {
+    .logo {
+        color: #EEC759;
+        font-size: 1vw;
+        text-shadow: 0 0 20px #9BB8CD;
+        text-decoration: none;
+    }
+
+    nav ul li a {
+        font-size: 10px;
+        padding: 3px;
+        border-radius: 5px;
+    }
 }
