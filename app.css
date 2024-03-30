@@ -82,6 +82,11 @@ section {
 }
 
 iframe {
+    width: 560px;
+    height: 315px;
+} 
+
+iframe {
     padding: 10px;
 }
 
@@ -262,11 +267,7 @@ footer {
 
 .social-media a:hover {
     color: #0389ef;
-    background-color: rgb(248, 242, 236);
-    height: 5em;
-    width: 5em;
-    border-radius: 50%;
-    margin-top: 2em;
+    background-color: rgba(248, 242, 236);
 }
 
 .footer-nav {
@@ -335,6 +336,46 @@ footer {
         font-size: smaller;
         padding: 1em;
     }
+    section {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    blockquote {
+        padding-left: 2em;
+        padding-right: 2em;
+        font-size: medium;
+    }
+    .social-media a {
+        color: #2782c8;
+        background-color: antiquewhite;
+        height: 2em;
+        width: 2em;
+        border-radius: 50%;
+        margin-top: 1em;
+        padding: 10px;
+    }
+    .social-media a:hover {
+        color: #0389ef;
+        background-color: rgb(248, 242, 236);
+    }
+    .footer-nav {
+        font-size: medium;
+    }
+    .artist {
+        letter-spacing: 1px;
+        font-size: medium;
+    }
+    section {
+        padding-top: 1em;
+    }
+    figcaption {
+        font-size: small;
+    }
+    caption {
+        font-size: large;
+    }
+    .container {
+        max-width: 80vw;
 }
 
 @media (max-width: 620px) {
@@ -353,5 +394,38 @@ footer {
     nav {
         flex-direction: column;
         padding: 1em;
+    }
+    iframe {
+        width: 280px;
+        height: 157px;
+    } 
+    blockquote {
+        padding-left: 2em;
+        padding-right: 2em;
+        font-size: small;
+    }
+    .footer-nav {
+        font-size: small;
+        padding: 0.5em;
+    }
+    .artist {
+        letter-spacing: 1px;
+        line-height: 1.5em;
+        font-size: x-small;
+    }
+    figcaption {
+        font-size: x-small;
+    }
+    section h2 {
+        font-size: medium;
+    }
+    caption {
+        font-size: medium;
+    }
+    tr {
+        font-size: xx-small;
+    }
+    #date-column {
+        width: 20%;
     }
 }
