@@ -35,6 +35,7 @@ nav {
 .logo:hover {
     color: #9BB8CD;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 nav ul li {
@@ -285,7 +286,7 @@ footer {
     list-style-type: none;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1280px) {
         #profile {
             display: flex;
             flex-direction: column;
@@ -303,5 +304,13 @@ footer {
         #date-column {
             padding: 0px;
             width: 150px;
+        }
+        th {
+            font-size: small;
+            padding: 1em;
+        }
+        td {
+            font-size: smaller;
+            padding: 1em;
         }
 }
