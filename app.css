@@ -84,7 +84,7 @@ section {
 iframe {
     width: 560px;
     height: 315px;
-} 
+}
 
 iframe {
     padding: 10px;
@@ -336,15 +336,18 @@ footer {
         font-size: smaller;
         padding: 1em;
     }
+
     section {
         padding-left: 1em;
         padding-right: 1em;
     }
+
     blockquote {
         padding-left: 2em;
         padding-right: 2em;
         font-size: medium;
     }
+
     .social-media a {
         color: #2782c8;
         background-color: antiquewhite;
@@ -354,78 +357,95 @@ footer {
         margin-top: 1em;
         padding: 10px;
     }
+
     .social-media a:hover {
         color: #0389ef;
         background-color: rgb(248, 242, 236);
     }
+
     .footer-nav {
         font-size: medium;
     }
+
     .artist {
         letter-spacing: 1px;
         font-size: medium;
     }
+
     section {
         padding-top: 1em;
     }
+
     figcaption {
         font-size: small;
     }
+
     caption {
         font-size: large;
     }
+
     .container {
         max-width: 80vw;
-}
-
-@media (max-width: 620px) {
-    .logo {
-        color: #EEC759;
-        font-size: 3vw;
-        text-shadow: 0 0 20px #9BB8CD;
-        text-decoration: none;
-    }
-
-    nav ul li a {
-        font-size: 10px;
-        padding: 3px;
-        border-radius: 5px;
-    }
-    nav {
-        flex-direction: column;
-        padding: 1em;
-    }
-    iframe {
-        width: 280px;
-        height: 157px;
-    } 
-    blockquote {
-        padding-left: 2em;
-        padding-right: 2em;
-        font-size: small;
-    }
-    .footer-nav {
-        font-size: small;
-        padding: 0.5em;
-    }
-    .artist {
-        letter-spacing: 1px;
-        line-height: 1.5em;
-        font-size: x-small;
-    }
-    figcaption {
-        font-size: x-small;
-    }
-    section h2 {
-        font-size: medium;
-    }
-    caption {
-        font-size: medium;
-    }
-    tr {
-        font-size: xx-small;
-    }
-    #date-column {
-        width: 20%;
     }
 }
+    @media (max-width: 620px) {
+        .logo {
+            color: #EEC759;
+            font-size: 3vw;
+            text-shadow: 0 0 20px #9BB8CD;
+            text-decoration: none;
+        }
+
+        nav ul li a {
+            font-size: 10px;
+            padding: 3px;
+            border-radius: 5px;
+        }
+
+        nav {
+            flex-direction: column;
+            padding: 1em;
+        }
+
+        iframe {
+            width: 280px;
+            height: 157px;
+        }
+
+        blockquote {
+            padding-left: 2em;
+            padding-right: 2em;
+            font-size: small;
+        }
+
+        .footer-nav {
+            font-size: small;
+            padding: 0.5em;
+        }
+
+        .artist {
+            letter-spacing: 1px;
+            line-height: 1.5em;
+            font-size: x-small;
+        }
+
+        figcaption {
+            font-size: x-small;
+        }
+
+        section h2 {
+            font-size: medium;
+        }
+
+        caption {
+            font-size: medium;
+        }
+
+        tr {
+            font-size: xx-small;
+        }
+
+        #date-column {
+            width: 20%;
+        }
+    }
